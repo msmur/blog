@@ -1,0 +1,69 @@
+languageCode = 'en-us'
+title = 'M-Writes'
+theme = 'typo'
+
+pluralizeListTitles = false
+
+[taxonomies]
+tag = 'tags'
+
+[params]
+description = "Just another software engineer trying to write"
+
+# Appearance settings
+theme = 'auto'
+colorPalette = 'default'
+hideHeader = false
+
+# Intro on main page, content is markdown
+homeIntroTitle = 'M-Writes'
+homeIntroContent = """
+Heya! I'm Maahir, a software engineer and (aspiring) writer.
+
+I write about... well I'm not sure if I have a niche at the moment since I've just started ;)
+"""
+
+# Collection to display on home
+homeCollectionTitle = 'Muse'
+homeCollection = 'muse'
+
+# Lists parameters
+paginationSize = 100
+listSummaries = true
+listDateFormat = '2 Jan 2006'
+
+# Breadcrumbs
+breadcrumbs = true
+
+# Social icons
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/msmur"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/mesmur"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "muse"
+url = "/muse"
+
+[[params.menu]]
+name = "dev"
+url = "/dev"
+
+[[params.menu]]
+name = 'tags'
+url = '/tags'
+
+# Syntax highligth on code blocks
+[markup]
+[markup.highlight]
+style = 'algol'
+
+
