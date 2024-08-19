@@ -2,7 +2,7 @@
 title: "Fixed Term Track - Dev Blog #1"
 summary: "(Possibly) An introduction to the project and my philosophy on these programming side-quests!"
 date: "2024-08-19"
-tags: [ "dev-blog", "p/fixed-term-track", "web server", "golang" ]
+tags: [ "dev-blog", "fixed-term-track", "web server", "golang" ]
 
 toc: true
 readTime: true
@@ -89,7 +89,7 @@ Building wot?
 
 A REST API that provides a simple interface for tracking and managing fixed term investments.[^4]
 
-## My 'Requirements'
+## My Requirements
 
 An excerpt from my 'quick and dirty' requirement spec:
 
@@ -118,8 +118,9 @@ I am more than a little lost on _how_ to do that though. Now that I've actually 
 out of tutorial hell, it would be a good time to look at other projects and see what I can do to incrementally improve
 this project.
 
-I haven't met my 'learning' goals yet, which means that I'm likely going to continue working on this project for a while
-longer. But I'll be happy to jump on to something more interesting if perchance I come across it.
+In terms of what's left: I haven't met my 'learning' goals, nor have I figured out how I want to consume the API, or
+more pertinently even deploy it. I don't want to maintain another website and learning some mobile dev sounds like the
+way.
 
 [^1]: Hopefully there will be many more such first entries for future projects
 [^2]: This is something worth exploring further. I'll likely write about it in a future post
