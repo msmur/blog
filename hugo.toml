@@ -1,4 +1,4 @@
-baseURL = "https://mesmur.github.io/blog"
+baseURL = "https://mesmur.github.io/blog/"
 
 languageCode = 'en-us'
 title = 'M-Writes'
@@ -49,15 +49,15 @@ url = "https://github.com/mesmur"
 # Main menu pages
 [[params.menu]]
 name = "home"
-url = "/"
+url = "/blog"
 
 [[params.menu]]
 name = "muse"
-url = "/muse"
+url = "/blog/muse"
 
 [[params.menu]]
 name = 'tags'
-url = '/tags'
+url = '/blog/tags'
 
 # Syntax highligth on code blocks
 [markup]
