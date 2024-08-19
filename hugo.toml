@@ -1,4 +1,5 @@
-baseURL = "https://mesmur.github.io/blog/"
+baseURL = "https://mesmur.github.io/blog"
+
 languageCode = 'en-us'
 title = 'M-Writes'
 theme = 'typo'
@@ -53,10 +54,6 @@ url = "/"
 [[params.menu]]
 name = "muse"
 url = "/muse"
-
-[[params.menu]]
-name = "dev"
-url = "/dev"
 
 [[params.menu]]
 name = 'tags'
