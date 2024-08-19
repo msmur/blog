@@ -1,7 +1,7 @@
 baseURL = "https://mesmur.github.io/blog/"
 
 languageCode = 'en-us'
-title = 'M-Writes'
+title = 'M Writes'
 theme = 'typo'
 
 pluralizeListTitles = false
@@ -13,24 +13,28 @@ tag = 'tags'
 description = "Just another software engineer trying to write"
 
 # Appearance settings
-theme = 'auto'
-colorPalette = 'default'
+theme = 'dark'
+colorPalette = 'eink'
 hideHeader = false
 
 # Intro on main page, content is markdown
-homeIntroTitle = 'M-Writes'
+homeIntroTitle = 'Hello'
 homeIntroContent = """
-Heya! I'm Maahir, a software engineer and (aspiring) writer.
+I'm Maahir, a software engineer and aspiring writer.
 
-I write about... well I'm not sure if I have a niche at the moment since I've just started ;)
+I write about... well I'm not sure if I have a niche at the moment since I've just started
+
+There are a couple of collections I maintain:
+1. [Dev](./dev) - A record of my journey as a software engineer
+2. [Muse](./muse) - Personal reflections on life and random shit
 """
 
 # Collection to display on home
-homeCollectionTitle = 'Muse'
-homeCollection = 'muse'
+homeCollectionTitle = 'Dev Entries'
+homeCollection = 'dev'
 
 # Lists parameters
-paginationSize = 100
+paginationSize = 20
 listSummaries = true
 listDateFormat = '2 Jan 2006'
 
@@ -39,17 +43,21 @@ breadcrumbs = true
 
 # Social icons
 [[params.social]]
-name = "linkedin"
-url = "https://www.linkedin.com/in/msmur"
-
-[[params.social]]
 name = "github"
 url = "https://github.com/mesmur"
+
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/msmur"
 
 # Main menu pages
 [[params.menu]]
 name = "home"
 url = "/blog"
+
+[[params.menu]]
+name = 'dev'
+url = '/blog/dev'
 
 [[params.menu]]
 name = "muse"
