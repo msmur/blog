@@ -30,7 +30,6 @@ There are a couple of collections I maintain:
 """
 
 # Collection to display on home
-homeCollectionTitle = 'Dev Entries'
 homeCollection = 'dev'
 
 # Lists parameters
@@ -49,6 +48,10 @@ url = "https://github.com/mesmur"
 [[params.social]]
 name = "linkedin"
 url = "https://www.linkedin.com/in/msmur"
+
+[[params.social]]
+name = 'rss'
+url = '/blog/index.xml'
 
 # Main menu pages
 [[params.menu]]
