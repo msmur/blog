@@ -17,6 +17,9 @@ theme = 'dark'
 colorPalette = 'eink'
 hideHeader = false
 
+# Favicon
+faviconPath = 'img'
+
 # Intro on main page, content is markdown
 homeIntroTitle = 'Hello'
 homeIntroContent = """
@@ -33,7 +36,7 @@ There are a couple of collections I maintain:
 homeCollection = 'dev'
 
 # Lists parameters
-paginationSize = 20
+paginationSize = 10
 listSummaries = true
 listDateFormat = '2 Jan 2006'
 
