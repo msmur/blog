@@ -20,6 +20,9 @@ hideHeader = false
 # Favicon
 faviconPath = 'img'
 
+# Custom CSS
+customCSS = ['css/style.css']
+
 # Intro on main page, content is markdown
 homeIntroTitle = 'Hello'
 homeIntroContent = """
