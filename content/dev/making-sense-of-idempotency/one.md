@@ -1,6 +1,6 @@
 ---
 title: "Making Sense of Idempotency - Part One"
-summary: "An introduction to what Idempotency is by telling you what it isn't"
+summary: "An introduction to what idempotency is by telling you what it isn't (and why it's so often misunderstood)"
 date: "2024-08-23"
 tags: [ "idempotency", "backend" ]
 
@@ -92,7 +92,7 @@ sequenceDiagram
     Server -->>- You: 5xx
 ```
 
-(Yes, there are many things going wrong here. We'll dive into those finer ~details~ problems later)
+(Yes, there are many things going wrong here. We'll dive into those ~finer details~ problems later)
 
 So. Which part of our code is aware of the context surrounding the side effects of our system as well as what needs to
 be done to process a request without damaging repeat / dangling side effects?
