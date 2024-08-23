@@ -107,7 +107,8 @@ idempotent matter. Repeated side effects possibly never resulting in a success s
 This leads us to our definition:
 
 > A request method is considered "idempotent" if the intended effect on the server of multiple identical requests brings
-> the state of the server towards (but never beyond) the expected outcome of the initial request.
+> the state of the server towards (but never beyond) the expected outcome of the initial request. _Without_ ever
+> causing more side effects than the initial request would have caused in a happy path scenario.
 
 [^1]: Any unique identifier (determined by the client) for that request. It's the basis on which the server can decide
 if this is a duplicate request or a new one
