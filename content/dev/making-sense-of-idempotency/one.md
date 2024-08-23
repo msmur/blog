@@ -1,8 +1,8 @@
 ---
-title: "Making Sense of Idempotency - Part One"
-summary: "An introduction to what idempotency is by telling you what it isn't (and why it's so often misunderstood)"
+title: "Making Sense of Idempotency - Part 1"
+summary: "A (long-winded but foundational) introduction to idempotency"
 date: "2024-08-23"
-tags: [ "idempotency", "backend" ]
+tags: [ "idempotency", "backend",  "distributed systems" ]
 
 toc: true
 readTime: true
@@ -14,7 +14,7 @@ hideBackToTop: false
 
 ## The Introduction
 
-I would start with a long-winded introduction of sorts but the definition isn't too complicated and I think the RFC
+I could start with a long-winded introduction of sorts but the definition isn't too complicated and I think the RFC
 defines it clearly (and simply)
 enough: [RFC 7231: Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content](https://www.rfc-editor.org/rfc/rfc7231#section-4.2.2).
 
@@ -24,7 +24,7 @@ Let me note that definition here:
 > that method is the same as the effect for a single such request.
 
 I will propose my own definition down the line, but I'd like that to be a finale of sorts, an encapsulation of the ideas
-explored in this series of posts. It does after all follow in lieu of the title of the series.
+explored in this series of essays. It does after all follow in lieu of the title of the series.
 
 I will agree it is a bit of a contradiction. To refer you, the reader, to one definition as we work ourselves towards
 another. Well - I'll point out it's only a contradiction if the definition down the line ends up contradicting the one
@@ -39,11 +39,12 @@ never think about it again as you design your system.
 
 ## The Claim
 
-It's because idempotency is conceptually quite straightforward, but in terms of execution nuance it's an absolute
-mess. Why? Because the quality of idempotence is baked into what we as engineers consider 'business' logic, and it
-scales proportionally with the complexity of that logic.
+It's because idempotency is conceptually straightforward, but complex in its execution nuances, that we suffer. Why?
+Because the quality of idempotence is baked into what we as engineers consider 'business' logic, and it scales
+proportionally with the complexity of that logic.
 
-Let's prove the above claim before we continue.
+Proving this claim is integral to our discussion (and what I'll spend the rest of this essay on). If you believe me -
+head on over to the next essay.
 
 Let's assume idempotence isn't baked into your business logic. Perhaps it's part of a higher level of abstraction such
 as a generic middleware or library that you use.
@@ -53,6 +54,9 @@ your idempotency logic is binary. It can either:
 
 1. Decide that it has seen this identifier previously, and return the same response as it did the last time
 2. Decide that it has not seen this API called previously, and continue to process the call from scratch
+
+The choices are binary because if baked into a library or middleware, said logic has no context into the nature of the
+request and can only make decisions based on incoming request information.
 
 This binary set of choices would be perfectly okay if everything was fine and dandy, but we wouldn't be paid so well if
 our jobs were that easy.
@@ -70,7 +74,7 @@ Although some may argue that the above *is* idempotent behavior (I'm looking at
 you [Stripe](https://docs.stripe.com/api/idempotent_requests)). That argument is made purely on the basis of what
 is being returned to the client. In this case, repeatedly returning a `500` ignores side effects[^2] that the server may
 have made as a result of the initial request. Transient errors are ubiquitous and not all side effects are as easy to
-roll back as a database transaction. For example:
+roll back as a database transaction.[^3] For example:
 
 ```mermaid
 sequenceDiagram
@@ -110,10 +114,25 @@ This leads us to our definition:
 > the state of the server towards (but never beyond) the expected outcome of the initial request. _Without_ ever
 > causing more side effects than the initial request would have caused in a happy path scenario.
 
+The consequences of this conclusion is that idempotency as an engineering problem has no _simple_ solution. What it
+means to be idempotent very much depends on what your code is meant to do.
+
+_Don't despair_, what we need to do now is to identify those 'gotchas' that developers most often overlook. Those '
+gotchas' can be categorically handled based on the operation that they're associated with. Becoming idempotent is a
+matter of making sure those individual operations are idempotent.
+
+---
+
+A quick note on distributed systems and why they're relevant. Idempotency is obviously a concern is non-distributed
+systems (the above example revolves around a single client dealing with a single server). However, the complexity of
+distributed systems makes the need for idempotency more pronounced and given that being distributed is the norm for
+enterprise systems. Well, not thinking about idempotency in the context of distributed systems will just give us
+half-baked solutions.
+
 [^1]: Any unique identifier (determined by the client) for that request. It's the basis on which the server can decide
 if this is a duplicate request or a new one
 [^2]: I'll label it a side effect in the functional sense of the term where there's some observable effect outside of
 taking in an input and returning an output. Simply though, these _are_ the components of the business logic being
 executed
-[^3]: Okay fair enough that *could be* how it works with Stripe but then why bother with choice #**1**, just do #**2**
-and process the request from scratch?
+[^3]: Okay, fair enough. That *could be* how it works with Stripe but then why bother with choice #**1**, just do #**2**
+and process the request from scratch!
