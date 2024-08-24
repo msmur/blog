@@ -82,7 +82,3 @@ url = '/blog/tags'
 style = 'algol'
 
 [params.umami]
-enable = ""
-websiteId = ""
-jsLocation = "https://cloud.umami.is/script.js"
-
