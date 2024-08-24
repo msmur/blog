@@ -26,7 +26,6 @@ defaults:
     shell: bash
 
 env:
-  HUGO_VERSION: 0.133.0
   UMAMI_ENABLED: ${{ secrets.UMAMI_ENABLED }}
   UMAMI_WEBSITE_ID: ${{ secrets.UMAMI_WEBSITE_ID }}
 
