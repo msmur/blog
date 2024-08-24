@@ -10,7 +10,7 @@ pluralizeListTitles = false
 tag = 'tags'
 
 [params]
-description = "Just another software engineer trying to write"
+description = "Just another software engineer and just another blog"
 
 # Appearance settings
 theme = 'dark'
@@ -81,4 +81,8 @@ url = '/blog/tags'
 [markup.highlight]
 style = 'algol'
 
+[params.umami]
+enable = ""
+websiteId = ""
+jsLocation = "https://cloud.umami.is/script.js"
 

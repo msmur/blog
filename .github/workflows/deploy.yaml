@@ -25,12 +25,17 @@ defaults:
   run:
     shell: bash
 
+env:
+  HUGO_VERSION: 0.133.0
+  UMAMI_ENABLED: ${{ secrets.UMAMI_ENABLED }}
+  UMAMI_WEBSITE_ID: ${{ secrets.UMAMI_WEBSITE_ID }}
+
 jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.132.0
+      HUGO_VERSION: 0.133.0
     steps:
       - name: Install Hugo CLI
         run: |
@@ -44,12 +49,18 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+      - name: Add Umami Params
+        run: |
+          chmod +x scripts/add-umami-secrets.sh
+          ./scripts/add-umami-secrets.sh
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
           TZ: UTC
         run: |
+          echo "UMAMI_ENABLED=${{ secrets.UMAMI_ENABLED }}" >> .env
+          echo "UMAMI_WEBSITE_ID=${{ secrets.UMAMI_WEBSITE_ID }}" >> .env
           hugo \
             --gc \
             --minify \

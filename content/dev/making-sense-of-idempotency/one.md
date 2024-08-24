@@ -12,6 +12,13 @@ autonumber: false
 hideBackToTop: false
 ---
 
+## The Series
+
+This is the first in a series of essays dedicated to idempotency.
+
+1. **An Introduction** > You are here
+2. [Persistence Causes Persistent Issues](../two)
+
 ## The Introduction
 
 I could start with a long-winded introduction of sorts but the definition isn't too complicated and I think the RFC
