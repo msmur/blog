@@ -17,7 +17,6 @@ hideBackToTop: false
 This is the first in a series of essays dedicated to idempotency.
 
 1. **An Introduction** > You are here
-2. [Persistence Causes Persistent Issues](../two)
 
 ## The Introduction
 
