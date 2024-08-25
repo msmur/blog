@@ -2,7 +2,9 @@
 title: "Fixed Term Track - Dev Blog #1"
 summary: "(Possibly) An introduction to the project and my philosophy on these programming side-quests!"
 date: "2024-08-19"
-tags: [ "dev-blog", "fixed-term-track", "web server", "golang" ]
+tags: [ "web server", "golang" ]
+series: [ "fixed term track" ]
+categories: [ "dev-blog" ]
 
 toc: true
 readTime: true

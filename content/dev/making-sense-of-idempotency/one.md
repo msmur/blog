@@ -3,6 +3,8 @@ title: "Making Sense of Idempotency - Part 1"
 summary: "A (long-winded but foundational) introduction to idempotency"
 date: "2024-08-23"
 tags: [ "idempotency", "backend",  "distributed systems" ]
+series: [ "making sense of idempotency" ]
+categories: [ "learning" ]
 
 toc: true
 readTime: true

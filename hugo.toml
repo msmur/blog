@@ -8,6 +8,8 @@ pluralizeListTitles = false
 
 [taxonomies]
 tag = 'tags'
+series = 'series'
+category = 'categories'
 
 [params]
 description = "Just another software engineer and just another blog"
@@ -56,8 +58,8 @@ name = "linkedin"
 url = "https://www.linkedin.com/in/msmur"
 
 [[params.social]]
-name = 'rss'
-url = '/blog/index.xml'
+name = 'goodreads'
+url = 'https://www.goodreads.com/user/show/26786246-maahir-ur-rahman'
 
 # Main menu pages
 [[params.menu]]
@@ -72,9 +74,18 @@ url = '/blog/dev'
 name = "muse"
 url = "/blog/muse"
 
-[[params.menu]]
-name = 'tags'
+[[params.taxonomyMenu]]
+name = 'by tags'
 url = '/blog/tags'
+
+[[params.taxonomyMenu]]
+name = 'by series'
+url = '/blog/series'
+
+[[params.taxonomyMenu]]
+name = 'by category'
+url = '/blog/categories'
+
 
 # Syntax highligth on code blocks
 [markup]

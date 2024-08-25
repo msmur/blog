@@ -8,3 +8,12 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
+.tags-columns {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tag-column {
+    flex: 1 1 50%; /* Two columns */
+}
