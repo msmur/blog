@@ -26,15 +26,19 @@ faviconPath = 'img'
 customCSS = ['css/style.css']
 
 # Intro on main page, content is markdown
-homeIntroTitle = 'Hello'
+homeIntroTitle = 'Hey There Stranger...'
 homeIntroContent = """
-I'm Maahir, a software engineer and aspiring writer.
+The name's Maahir. I'm a software engineer and, in attempt to have more to my personality than software engineering, here I am trying to be a writer.
 
-I write about... well I'm not sure if I have a niche at the moment since I've just started
+Hailing from the Pearl of the Indian Ocean (that's Sri Lanka), and currently residing in Indonesia (couldn't find a cool title) -
 
-There are a couple of collections I maintain:
+Yeah... I'm not sure where I was going with that, but now you know something about me!
+
+I write about software engineering and other things that I find interesting.
+
+These are the collections I maintain at the moment:
 1. [Dev](./dev) - A record of my journey as a software engineer
-2. [Muse](./muse) - Personal reflections on life and random shit
+2. [Muse](./muse) - Personal reflections on life and other attempts at being wise but more likely to appear as a sophist
 """
 
 # Collection to display on home

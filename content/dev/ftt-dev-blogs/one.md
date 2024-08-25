@@ -1,10 +1,10 @@
 ---
-title: "Fixed Term Track - Dev Blog #1"
+title: "Fixed Term Track | Dev Blog #1"
 summary: "(Possibly) An introduction to the project and my philosophy on these programming side-quests!"
 date: "2024-08-19"
 tags: [ "web server", "golang" ]
 series: [ "fixed term track" ]
-categories: [ "dev-blog" ]
+categories: [ "dev-blogs" ]
 
 toc: true
 readTime: true
@@ -20,7 +20,7 @@ This first developer blog entry[^1] is a bit similar to infamous cooking recipe 
 for_ is buried under 10 react components, 8 images of food that aren't actually the food you were looking for, and a
 backstory you didn't care to learn about that day.
 
-Well - if I haven't lost you already. A major part of this entry is discussing what I consider a 'project' and how I
+Well – if I haven't lost you already. A major part of this entry is discussing what I consider a 'project' and how I
 think about it. It's a bit of a reflective piece, and I'll be honest **I** am the target audience. Well, me and others
 who're interested in getting started with something similar!
 
@@ -44,8 +44,8 @@ Especially after the initial dopamine hit of 'start something new' and 'get some
 I've tried to change my mental model on what this kind of project is meant to be (and accomplish).[^2] Personally, I set
 two requirements that I had to meet before I could consider starting a project.
 
-1. What do I want to play around with? - In terms of the languages/frameworks/tools/technologies I want to learn.
-2. What does the end look like? - In terms of core functionality that the project will aim to provide.
+1. What do I want to play around with? In terms of the languages/frameworks/tools/technologies I want to learn.
+2. What does the end look like? In terms of core functionality that the project will aim to provide.
 
 The order _sort of_ matters. In the sense that learning is the primary objective and picking a project that helps you
 utilize those things you want to learn would be ideal.
@@ -112,7 +112,7 @@ I've had a good bit of fun with the project so far. Getting help from Copilot Ch
 in a lot of the boilerplate necessary to set up a REST API as well as initializing the libraries.
 
 In terms of core functionality this project is already 'complete'. I am having second thoughts on how I designed
-things - but more on that in a future entry. One of the things I want to 'polish' up is writing more idiomatic Go code.
+things – but more on that in a future entry. One of the things I want to 'polish' up is writing more idiomatic Go code.
 In my opinion everything I've written up is 'too simple'[^5] and there's little in the way of the Domain Driven Design (
 DDD) that I love preaching.
 
@@ -128,7 +128,7 @@ way.
 [^2]: This is something worth exploring further. I'll likely write about it in a future post
 [^3]: Unless you're learning Rust. Rust devs will reassure you that your choice of project doesn't matter since Rust can
 do it all
-[^4]: Before you ask me why the financial institution that holds these investments don't offer such a service. Well -
+[^4]: Before you ask me why the financial institution that holds these investments don't offer such a service. Well –
 they don't
 [^5]: _Not a bad thing_ but part of getting good enough at some tech stack is to be able to write and think about it at
 a level well enough to be considered a 'professional' which, at this point in my career is a high priority of mine

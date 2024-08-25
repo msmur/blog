@@ -23,7 +23,7 @@ answer, but it is an important "guiding question" in our lives, and the only way
 thought.
 
 Perhaps the best place to start is to narrow down the question a bit, maybe the more specific it is, the more tangible
-the guidance. Considering how central my work is to my identity at the moment (well - that's not what I want the focus
+the guidance. Considering how central my work is to my identity at the moment (well – that's not what I want the focus
 of this essay to be), this is meant to be an exploration of **activities** in relation to life.
 
 ## A Disclaimer
@@ -95,14 +95,14 @@ you discovering your passion, or have it become your passion.
 
 What does "fair" entail? I'd consider three things (disclaimer, estimations are not backed by any scientific research):
 
-1. **Give it time** - 20 hours is a good start. The idea here is that a craft usually has a bit of a learning curve.
+1. **Give it time**. 20 hours is a good start. The idea here is that a craft usually has a bit of a learning curve.
    Spend too little time on it, and you may give it up before you even 'truly' get started.
-2. **Give it effort** - deliberate practice. It's not fair if you aren't focused.
-3. **Do it consistently** - 30 minutes to an hour a day is a lot more effective than 5 hours on the weekend. It's
+2. **Give it effort**. Deliberate practice. It's not fair if you aren't focused.
+3. **Do it consistently**. 30 minutes to an hour a day is a lot more effective than 5 hours on the weekend. It's
    partially about building a habit, but also retaining the mindset that this is something fun and not a 'grind' you
    have to get through.
 
-If after some time you don't feel those emotions that I attribute to passion. Well - move on. Find something else. Maybe
+If after some time you don't feel those emotions that I attribute to passion. Move on. Find something else. Maybe
 come back to it later if you want to give it another go.
 
 The only way you lose, is if you stop searching.

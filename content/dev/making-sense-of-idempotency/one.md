@@ -1,10 +1,10 @@
 ---
-title: "Making Sense of Idempotency - Part 1"
+title: "Making Sense of Idempotency | Part 1"
 summary: "A (long-winded but foundational) introduction to idempotency"
 date: "2024-08-23"
 tags: [ "idempotency", "backend",  "distributed systems" ]
 series: [ "making sense of idempotency" ]
-categories: [ "learning" ]
+categories: [ "deep-dives" ]
 
 toc: true
 readTime: true
@@ -19,6 +19,7 @@ hideBackToTop: false
 This is the first in a series of essays dedicated to idempotency.
 
 1. **An Introduction** > You are here
+2. [Persistence Causes Persistent Issues](../two)
 
 ## The Introduction
 
@@ -35,7 +36,7 @@ I will propose my own definition down the line, but I'd like that to be a finale
 explored in this series of essays. It does after all follow in lieu of the title of the series.
 
 I will agree it is a bit of a contradiction. To refer you, the reader, to one definition as we work ourselves towards
-another. Well - I'll point out it's only a contradiction if the definition down the line ends up contradicting the one
+another. Well – I'll point out it's only a contradiction if the definition down the line ends up contradicting the one
 noted above. I hope it doesn't, it's meant to work with it, to augment it in some ways.
 
 "*But **what** Maahir is there to make sense of?*" you may ask. After all, I did *also* mention that the RFC definition
@@ -51,8 +52,8 @@ It's because idempotency is conceptually straightforward, but complex in its exe
 Because the quality of idempotence is baked into what we as engineers consider 'business' logic, and it scales
 proportionally with the complexity of that logic.
 
-Proving this claim is integral to our discussion (and what I'll spend the rest of this essay on). If you believe me -
-head on over to the next essay.
+Proving this claim is integral to our discussion (and what I'll spend the rest of this essay on). If you already believe
+me (because I _clearly_ know what I'm talking about) head on over to the next essay.
 
 Let's assume idempotence isn't baked into your business logic. Perhaps it's part of a higher level of abstraction such
 as a generic middleware or library that you use.
@@ -111,7 +112,7 @@ be done to process a request without damaging repeat / dangling side effects?
 
 ## The Conclusion
 
-Well - that would have to be the business logic itself.
+That would have to be the business logic itself.
 
 Consequently, we've also been made keenly aware of what could go wrong if we _fail_ to process a request in an
 idempotent matter. Repeated side effects possibly never resulting in a success state returned to the client.
