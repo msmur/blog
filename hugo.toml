@@ -9,6 +9,7 @@ pluralizeListTitles = false
 [taxonomies]
 tag = 'tags'
 series = 'series'
+project = 'projects'
 category = 'categories'
 
 [params]
@@ -26,19 +27,19 @@ faviconPath = 'img'
 customCSS = ['css/style.css']
 
 # Intro on main page, content is markdown
-homeIntroTitle = 'Hey There Stranger...'
+homeIntroTitle = 'Hey there stranger!'
 homeIntroContent = """
 The name's Maahir. I'm a software engineer and, in attempt to have more to my personality than software engineering, here I am trying to be a writer.
 
-Hailing from the Pearl of the Indian Ocean (that's Sri Lanka), and currently residing in Indonesia (couldn't find a cool title) -
+Hailing from the Pearl of the Indian Ocean (that's Sri Lanka), and currently residing in Indonesia (couldn't find a cool title) - I...
 
-Yeah... I'm not sure where I was going with that, but now you know something about me!
+Yeah, I'm not sure where I was going with that, but now you know something about me!
 
 I write about software engineering and other things that I find interesting.
 
 These are the collections I maintain at the moment:
-1. [Dev](./dev) - A record of my journey as a software engineer
-2. [Muse](./muse) - Personal reflections on life and other attempts at being wise but more likely to appear as a sophist
+1. [Dev](./dev) - A record of my journey as a software engineer, reflections on the things I've learned, the projects I'm working on, and the occasional rant
+2. [Muse](./muse) - Personal reflections on life and other attempts at being wise (although, I'm likely to seem a sophist instead)
 """
 
 # Collection to display on home
@@ -85,6 +86,10 @@ url = '/blog/tags'
 [[params.taxonomyMenu]]
 name = 'by series'
 url = '/blog/series'
+
+[[params.taxonomyMenu]]
+name = 'by project'
+url = '/blog/projects'
 
 [[params.taxonomyMenu]]
 name = 'by category'

@@ -10,6 +10,17 @@ All credits for the theme goes to [tomfran/typo](https://github.com/tomfran/typo
 
 ---
 
+In terms of categories, I'm thinking of dividing my technical writings as:
+
+1. Dev Blogs (reflections on projects I am (or want to lol) work on)
+2. Learnings (the topics I've learned or am learning about, geared towards conceptual topics baked in with practical
+   examples)
+3. Insights (the topics I've reflected on, or dived into, and modeled some thoughts around, geared towards more
+   practical/specific topics)
+4. How-To's (practical shit I had trouble figuring out, hopefully it'll help some weary wandering developer out)
+
+---
+
 Why are you adding umami parameters through a script you ask!?
 
 Well - to be honest, I initially thought they needed to be kept a 'secret' but quickly realized that the values are

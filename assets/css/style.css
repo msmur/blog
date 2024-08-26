@@ -17,3 +17,33 @@ body {
 .tag-column {
     flex: 1 1 50%; /* Two columns */
 }
+
+.taxonomy {
+    margin-bottom: .5rem;
+    align-items: baseline;
+    border: 0.1rem solid white;
+    padding: 1rem;
+}
+
+.taxonomy-link:hover .taxonomy {
+    background-color: #2e2e2e; /* Slightly darker muted gray */
+    box-shadow: 0 0 1rem rgba(255, 255, 255, 0.5);
+}
+
+.taxonomy-summary {
+    font-size: 0.85em; /* Smaller font size */
+    color: #999;
+    margin: 0.2em; /* Small margin below the title */
+}
+
+.tag-article-count {
+    font-size: 0.9em;
+    color: #999;
+}
+
+.taxonomy-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+

@@ -4,7 +4,7 @@ summary: "A (long-winded but foundational) introduction to idempotency"
 date: "2024-08-23"
 tags: [ "idempotency", "backend",  "distributed systems" ]
 series: [ "making sense of idempotency" ]
-categories: [ "deep-dives" ]
+categories: [ "learnings" ]
 
 toc: true
 readTime: true
@@ -19,7 +19,6 @@ hideBackToTop: false
 This is the first in a series of essays dedicated to idempotency.
 
 1. **An Introduction** > You are here
-2. [Persistence Causes Persistent Issues](../two)
 
 ## The Introduction
 
@@ -128,7 +127,7 @@ means to be idempotent very much depends on what your code is meant to do.
 
 _Don't despair_, what we need to do now is to identify those 'gotchas' that developers most often overlook. Those '
 gotchas' can be categorically handled based on the operation that they're associated with. Becoming idempotent is a
-matter of making sure those individual operations are idempotent.
+matter of making sure those individual operations are idempotent.[^4]
 
 ---
 
@@ -145,3 +144,5 @@ taking in an input and returning an output. Simply though, these _are_ the compo
 executed
 [^3]: Okay, fair enough. That *could be* how it works with Stripe but then why bother with choice #**1**, just do #**2**
 and process the request from scratch!
+[^4]: Yeah this sounds vague because _it is_ vague. We'll get into specifics, but I've got to keep you interested
+somehow *wink*
