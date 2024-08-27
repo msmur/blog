@@ -80,7 +80,7 @@ name = "muse"
 url = "/blog/muse"
 
 [[params.taxonomyMenu]]
-name = 'by tags'
+name = 'by tag'
 url = '/blog/tags'
 
 [[params.taxonomyMenu]]

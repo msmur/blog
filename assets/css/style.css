@@ -25,6 +25,29 @@ body {
     padding: 1rem;
 }
 
+.taxonomy-metadata {
+    margin-top: 0;
+    font-size: 0.9em;
+    color: #888;
+    margin-bottom: 1em; /* Space between metadata and tags-columns */
+}
+
+.metadata-box {
+    display: flex;
+    justify-content: center;
+    gap: 1em; /* Small gap between the items */
+    font-size: 0.9em;
+    color: #888;
+    margin-bottom: 1em; /* Space between metadata and tags-columns */
+}
+
+.taxonomy-tag {
+    display: inline-block;
+    border-radius: 3px;
+    font-size: 0.9em;
+    font-style: italic;
+}
+
 .taxonomy-link:hover .taxonomy {
     background-color: #2e2e2e; /* Slightly darker muted gray */
     box-shadow: 0 0 1rem rgba(255, 255, 255, 0.5);
@@ -33,7 +56,8 @@ body {
 .taxonomy-summary {
     font-size: 0.85em; /* Smaller font size */
     color: #999;
-    margin: 0.2em; /* Small margin below the title */
+    margin-top: 0.2rem;
+    margin-bottom: 0.5rem;
 }
 
 .tag-article-count {

@@ -17,8 +17,11 @@
     <a href="{{ .RelPermalink }}" class="taxonomy-link">
         <div class="taxonomy">
             <p class="tag-title"> {{ .Title }}</p>
-            <p class="taxonomy-summary">Essays: {{ len .Pages }} | Status: {{ .Params.status }}</p>
-            <p class="taxonomy-summary"> {{ .Params.description }} </p>
+            <p class="taxonomy-summary">
+                {{ range .Params.tags }}
+                <span class="taxonomy-tag">{{ . }}</span>
+                {{ end }}
+            </p>
         </div>
     </a>
     {{ end }}

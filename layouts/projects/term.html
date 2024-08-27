@@ -5,16 +5,12 @@
     <h1>{{ .Title }}</h1>
 
     <div class="taxonomy-metadata">
-        <p>{{ .Description }}</p>
-        <div class="metadata-box">
-            <span>Essays: {{ len .Pages }} </span>
-            <span>Status: {{ .Params.status }}</span>
-        </div>
+        Repo:
+        <a href="{{ .Params.repositoryLink }}"> {{ .Params.repositoryName}} </a>
     </div>
 
     <div class="tags-columns">
-        {{ $sortedPages := sort .Pages ".Date" "asc" }}
-        {{ range $sortedPages }}
+        {{ range .Pages }}
         <div class="post-line">
 
             {{ $dateFormat := "2 Jan 2006"}}
