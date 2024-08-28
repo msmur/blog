@@ -5,16 +5,35 @@
     <h1>{{ .Title }}</h1>
     {{ .Content }}
 
-    <div class="tags-columns">
+    <div class="sort-options">
+        <button id="sort-count" onclick="sortTags('count')">Sort by Count</button>
+        <button id="sort-name" onclick="sortTags('name')">Sort Alphabetically</button>
+    </div>
+
+    <div class="tags-columns" id="tags-container">
         {{ range .Data.Terms.ByCount }}
-        <div class="tag-column tag-line">
-            <div>
-                <p class="tag-title">
-                    <a href="{{ .Page.RelPermalink }}"> {{ .Count }} | #{{ .Page.LinkTitle }}</a>
-                </p>
-            </div>
+        <div class="tag-column ">
+            <span class="tag-count">{{ .Count }}</span>
+            <a href="{{ .Page.RelPermalink }}" class="tag-link">#{{ .Page.LinkTitle }}</a>
         </div>
         {{ end }}
     </div>
 </div>
+
+<script>
+    function sortTags(criteria) {
+        const container = document.getElementById('tags-container');
+        let tags = Array.from(container.children);
+
+        tags.sort((a, b) => {
+            if (criteria === 'name') {
+                return a.querySelector('.tag-link').textContent.localeCompare(b.querySelector('.tag-link').textContent);
+            } else {
+                return parseInt(b.querySelector('.tag-count').textContent) - parseInt(a.querySelector('.tag-count').textContent);
+            }
+        });
+
+        tags.forEach(tag => container.appendChild(tag));
+    }
+</script>
 {{ end }}

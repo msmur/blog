@@ -1,10 +1,10 @@
 ---
-title: "Fixed Term Track | Dev Blog #1"
+title: "Fixed Term Track | Devlog #1"
 summary: "(Possibly) An introduction to the project and my philosophy on these programming side-quests!"
 date: "2024-08-19"
-tags: [ "web server", "golang" ]
+tags: [ "web servers", "golang" ]
 projects: "fixed-term-track"
-categories: [ "dev-blogs" ]
+categories: [ "devlogs" ]
 
 toc: true
 readTime: true

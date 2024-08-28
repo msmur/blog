@@ -16,6 +16,9 @@ body {
 
 .tag-column {
     flex: 1 1 50%; /* Two columns */
+    max-width: 50%; /* Ensure a maximum of 2 items per column */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    text-align: center;
 }
 
 .taxonomy {

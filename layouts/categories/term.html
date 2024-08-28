@@ -1,0 +1,41 @@
+{{ define "main" }}
+<div class="list-container">
+    {{ partial "breadcrumbs.html" . }}
+
+    <h1>{{ .Title }}</h1>
+
+    <div class="taxonomy-metadata">
+        <p>{{ .Description }}</p>
+        <div class="metadata-box">
+            <span>Posts: {{ len .Pages }} </span>
+        </div>
+    </div>
+
+    <div class="tags-columns">
+        {{ $sortedPages := sort .Pages ".Date" "asc" }}
+        {{ range $sortedPages }}
+        <div class="post-line">
+
+            {{ $dateFormat := "2 Jan 2006"}}
+            {{ with .Site.Params.listDateFormat }}
+            {{ $dateFormat = .}}
+            {{ end }}
+
+            <p class="line-date">{{ .Date.Format $dateFormat }} </p>
+
+            <div>
+                <p class="line-title">
+                    <a href="{{ .RelPermalink }}">
+                        {{ .Title }}
+                    </a>
+                </p>
+
+                {{ if .Site.Params.listSummaries }}
+                <p class="line-summary"> {{ .Summary }} </p>
+                {{ end }}
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</div>
+{{ end }}
