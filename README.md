@@ -18,11 +18,3 @@ In terms of categories, I'm thinking of dividing my technical writings as:
 3. Insights (the topics I've reflected on, or dived into, and modeled some thoughts around, geared towards more
    practical/specific topics)
 4. How-To's (practical shit I had trouble figuring out, hopefully it'll help some weary wandering developer out)
-
----
-
-Why are you adding umami parameters through a script you ask!?
-
-Well - to be honest, I initially thought they needed to be kept a 'secret' but quickly realized that the values are
-going to be displayed in the raw html anyway so... Anyway, I continued in order to experiment with programmatically
-defining the config in my `hugo.toml`.
