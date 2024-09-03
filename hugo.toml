@@ -68,8 +68,8 @@ url = 'https://www.goodreads.com/user/show/26786246-maahir-ur-rahman'
 
 # Main menu pages
 [[params.menu]]
-name = "home"
-url = "/"
+name = "now"
+url = "/now"
 
 [[params.menu]]
 name = 'dev'
@@ -78,6 +78,7 @@ url = '/dev'
 [[params.menu]]
 name = "muse"
 url = "/muse"
+
 
 [[params.taxonomyMenu]]
 name = 'by tag'
