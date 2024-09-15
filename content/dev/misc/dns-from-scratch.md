@@ -2,7 +2,7 @@
 title: "DNS From Scratch"
 summary: "Understanding how DNS makes your website work. A nuanced overview of the parts of DNS that you should care about."
 date: "2024-09-03"
-tags: [ "networks", "DNS" ]
+tags: [ "network", "DNS" ]
 categories: [ "learnings" ]
 
 toc: true
@@ -210,10 +210,10 @@ topics though, and I might cover them in a separate post.
 [^1]: It's really just the initials of my full name
 [^2]: This statement might not entirely be true. Your Domain Registrar might
 often '[park](https://www.wikiwand.com/en/articles/Domain_parking)' the domain, having some DNS
-records in place to point visitors to the registrar's website or an advertisement.
+records in place to point visitors to the registrar's website or an advertisement
 [^3]: The term `authoritative` is used to designate the 'source of truth' for a given _part_ of a domain. The
 authoritative name server would be authoritative for your entire domain (e.g. `example.com.`), The TLD name server would
 be authoritative for the `com.` part of the domain, and the root name server would be authoritative for the `.` part of
 the domain (which is the root from which all domains are born ;x)
 [^4]: This is me making an educated guess, I wasn't able to find any official documentation on this, but it's a fairly
-simple explanation that _would_ work.
+simple explanation that _would_ work

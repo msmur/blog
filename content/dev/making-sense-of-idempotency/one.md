@@ -2,7 +2,7 @@
 title: "An Inkling of Idempotency"
 summary: "A (long-winded yet) foundational introduction to idempotency"
 date: "2024-08-23"
-tags: [ "idempotency", "backends",  "distributed systems" ]
+tags: [ "idempotency", "backend",  "distributed system" ]
 series: "making-sense-of-idempotency"
 categories: [ "learnings" ]
 
@@ -26,7 +26,7 @@ Let me note that definition here:
 > that method is the same as the effect for a single such request.
 
 I will propose my own definition down the line, but I'd like that to be a finale of sorts, an encapsulation of the ideas
-explored in this series of essays. It does after all follow in lieu of the title of the series.
+explored in this series of posts. It does after all follow in lieu of the title of the series.
 
 I will agree it is a bit of a contradiction. To refer you, the reader, to one definition as we work ourselves towards
 another. Well – I'll point out it's only a contradiction if the definition down the line ends up contradicting the one
@@ -45,8 +45,9 @@ It's because idempotency is conceptually straightforward, but complex in its exe
 Because the quality of idempotence is baked into what we as engineers consider 'business' logic, and it scales
 proportionally with the complexity of that logic.
 
-Proving this claim is integral to our discussion (and what I'll spend the rest of this essay on). If you already believe
-me (because I _clearly_ know what I'm talking about) head on over to the next essay.
+Proving this claim is integral to our discussion (and what I'll spend the rest of this post on). If you already believe
+me (because I _clearly_ know what I'm talking about) head on over to the next post to get a more grounded view of why
+idempotency is worth the effort.
 
 Let's assume idempotence isn't baked into your business logic. Perhaps it's part of a higher level of abstraction such
 as a generic middleware or library that you use.
