@@ -12,7 +12,7 @@
     </div>
 
     <div class="tags-columns">
-        {{ $sortedPages := sort .Pages ".Date" "asc" }}
+        {{ $sortedPages := sort .Pages ".Date" "desc" }}
         {{ range $sortedPages }}
         <div class="post-line">
 

@@ -73,6 +73,18 @@ body {
     color: inherit;
 }
 
+.now-columns {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.now-column {
+    flex: 1 1 50%; /* Two columns */
+    max-width: 50%; /* Ensure a maximum of 2 items per column */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    text-align: center;
+}
+
 .img-center {
     display: block;
     margin-left: auto;
@@ -81,3 +93,6 @@ body {
     height: auto;
 }
 
+h1 {
+    text-align: center;
+}

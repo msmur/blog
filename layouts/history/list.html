@@ -1,0 +1,16 @@
+{{ define "main" }}
+{{ partial "breadcrumbs.html" . }}
+
+<h1>{{ .Title }}</h1>
+
+{{ $paginationSize := 30}}
+
+{{ $paginator := .Paginate (.Pages) $paginationSize }}
+<div class='now-columns'>
+    {{ range $index, $page := $paginator.Pages }}
+    <a href="{{ .RelPermalink }}" class="now-column"> {{ .Date.Format "2006-01-02" }}</a>
+    {{ end }}
+</div>
+
+{{ partial "pagination-controls.html" $paginator}}
+{{ end }}

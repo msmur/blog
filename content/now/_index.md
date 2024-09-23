@@ -1,6 +1,6 @@
 ---
 title: "Now"
-date: "2024-09-03"
+date: "2024-09-23"
 
 layout: single
 toc: false
@@ -13,68 +13,61 @@ hideBackToTop: false
 
 ## Life
 
-Things are rather vanilla at the moment with most of my focus being on work.
+I just turned 26!
 
-Although I _really_ want that to change, so I'm trying to spend more time on other things.
+It's a somber thought. Really. Since... forever I've taken life as it comes and haven't really thought about some
+long-term vision or grand plan that I must carry out. I can't help but feel like I could have done more. Although,
+that sentiment is likely to always be there.
 
-## Writing
+I've had no deep insightful reflection since I woke up this morning having lived through another year around the sun. I
+have not the faintest clue of what the future holds for me, and while I'm terribly afraid of being so unprepared, I'm
+at peace knowing that I'll figure it out.
 
-I'm currently working on a series of essays titled: `Making Sense of Idempotency`.
+_Here's to another year of taking life one page at a time._
 
-Given that I've just started this blog, I'm also planning on cleaning up and slowly moving over
-my [substack](https://maahir.substack.com/) posts over!
+## Work
 
-## Developing
+Whew, going live with a new customer is always a scary thing. It's been quite hectic keeping things together, but I'll
+stay afloat as I always do. It'll be nice to move on to newer (and hopefully more interesting) things soon~
 
-Working on [Fixed Term Track](https://github.com/mesmur/fixed-term-track-web-server), but honestly having trouble
-staying motivated. The project itself isn't... as interesting as I would have thought it would be. I'm likely going to
-clean things up a bit and then maybe look for something more interesting to work on.
+## Books
 
-## Reading
+Still making my way through the [Dandelion Dynasty](https://www.goodreads.com/series/117103-the-dandelion-dynasty)
+series. Now on Book 3, and while there's a lot of world-building, the fact that we've 'moved on' to a different set of
+characters meant that my interest in the novels waned a bit. I'm still keeping at it though!
 
-[The Wall of Storms](https://www.goodreads.com/book/show/18952381-the-wall-of-storms) by Ken Liu!
+I finished [Peak: Secrets from the New Science of Expertise](https://www.goodreads.com/book/show/26312997-peak) and
+while there were some useful nuggets of information - the whole book could have been a fifth as long as it actually was.
+It's one of those books you should read once for the insights, then, as long as you can put those insights into practice
+you likely won't find yourself coming back for the prose.
 
-It's the second book in the [Dandelion Dynasty](https://www.goodreads.com/series/117103-the-dandelion-dynasty) series.
-The first book, [The Grace of Kings](https://www.goodreads.com/book/show/18952341-the-grace-of-kings) started off quite
-slow but was a fantastic read. No spoilers here haha. I did find the narrative style of the book to be quite unique ,
-and whereas it was a little dry at first, things picked up _very_ quickly and I devoured the latter half of the
-book.
+## Entertainment
 
-As for non-fiction, I just
-finished [How to Live on 24 Hours a Day](https://www.goodreads.com/book/show/4855.How_to_Live_on_24_Hours_a_Day) and
-while it was a short read, some of the insights were... insightful? Ha, I'll be trying to incorporate some of the
-suggestions.
+### Anime
 
-I've started
-reading [Peak: Secrets from the New Science of Expertise](https://www.goodreads.com/book/show/26312997-peak) by K.
-Anders Ericsson. There's honestly a lot of fluff, so I find myself skimming through quite a few pages.
+FALL SEASON BEGINS SOON AND I CANNOT WAIT. RE-ZERO, DANDADAN, BLUE LOCK, BLEACH, SHANGRI LA FRONTIER.
 
-As for technical works, I'm going
-through [Building Microservices](https://www.goodreads.com/book/show/22512931-building-microservices). While
-microservices is the architectural 'style' of my current job, I've taken the whole concept for granted, and I've been
-thinking to work through some foundations. The going is slow but interesting.
+Alright, I'll stop with the all-caps, but it's a fantastic season for anime fans~
 
-## Watching
+### TV Series
 
-This season of anime is quite alright, I'm
-watching [Wistoria: Wand and Sword](https://myanimelist.net/anime/58059/Tsue_to_Tsurugi_no_Wistoria) and the second
-season of [Oshi no Ko](https://myanimelist.net/anime/55791/Oshi_no_Ko_2nd_Season).
-Started watching the second season of [Tower of God](https://myanimelist.net/anime/52635/Kami_no_Tou__Ouji_no_Kikan)
-, but it's so a let-down compared to the original webtoon, even the first season. Given what a major part of my
-childhood ToG was, I'd rather not sully it with this adaptation.
+On to the last season of Utopia! I'll be sad when the show ends... I've also just finished
+watching [Kaos](https://www.imdb.com/title/tt8550732/), it was a solid 7/10 show – although I feel like a lot of its
+potential would really only manifest in a second season. Here's to hoping it's not sent to the Netflix shadow realm.
 
-I've been watching episodes of [Utopia](https://www.imdb.com/title/tt3163562/) while having lunch and dinner. An
-absolutely hilarious show. Found it scrolling through youtube shorts and here I am 3 weeks in, 3 seasons down. Yes, not
-the fastest of binges, but I don't watch a lot of shows and this has got me gripped! It's also a depressing exhibit of
-the absurdities of corporate life. I hope that is something I'll never have to experience... Stay strong
-Tony and Nat!
+### Video Games
 
-## Playing
+Ever since my encounter with [Furi](https://store.steampowered.com/app/423230/Furi/) I've been absolutely smitten with
+high-octane boss-rush type games. I found [Nano
+Apostle](https://store.steampowered.com/app/2400640/NanoApostle/) recently, and I've been having a blast getting through
+one boss at a time. Gosh am I garbage though.
 
-[League of Legends](https://www.leagueoflegends.com/)... haha I've been playing since college and don't find myself with
-the energy for anything else at the moment @_@
+The League of Legends World Championship (aptly called "Worlds") should be starting up rather soon so I'll have my eye
+on that :D
 
-## Inspiration
+## A History
 
-This page is inspired by the [Now page](https://nownownow.com/about) movement!
-
+This is perhaps a desecration of what the `Now` page is meant to signify, but I couldn't help but feel like I needed to
+keep 'track' of what these pages used to be. Yes this blog is version-controlled, but I don't want to be navigating a
+git history haha. In case you're interested in past versions of this page head on over
+to [the history page](/now/history/).
