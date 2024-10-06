@@ -1,7 +1,7 @@
 ---
 title: "Persistence Causes Persistent Issues"
 summary: "Databases help you achieve idempotency, but it's just so easy to get it wrong"
-date: "2024-09-24"
+date: "2024-11-24"
 tags: [ "idempotency", "backend", "database" ]
 series: "making-sense-of-idempotency"
 categories: [ "learnings" ]
