@@ -114,7 +114,7 @@ an API at some point but deprecated it](https://www.goodreads.com/api) :)))
 
 In classic developer fashion, I decided to hearken back to the good old days and scrape the damn
 data off the webpage for each. I used [cheerio](https://github.com/cheeriojs/cheerio), an HTML/XML parser to get load
-the book page, then search for the image element (ah the good 'ol `cmd + shift + I` trick) and extract the URL.
+the book page, then search for the image element (ah the good 'ol `cmd + option + I` trick) and extract the URL.
 
 It worked like a charm, but is now the biggest performance bottleneck in the project. Seems like parsing an HTML page is
 a bit of an expensive computational task. Perhaps I'll consider rewriting my Lambda in Golang to see if it would make a
