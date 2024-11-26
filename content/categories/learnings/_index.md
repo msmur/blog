@@ -1,4 +1,4 @@
 ---
 title: "Learnings"
-description: "Reflections on the things I have and am learning. Geared towards software engineering but not limited as such."
+description: "Reflections on the things I have learned and am learning. Geared towards software engineering takes"
 ---
