@@ -3,7 +3,6 @@ title: "Fixed Term Track | Devlog #1"
 summary: "(Possibly) An introduction to the project and my philosophy on these programming side-quests!"
 date: "2024-08-19"
 tags: [ "web server", "golang" ]
-projects: "fixed-term-track"
 categories: [ "devlogs" ]
 
 toc: true

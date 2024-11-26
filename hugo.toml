@@ -9,7 +9,6 @@ pluralizeListTitles = false
 [taxonomies]
 tag = 'tags'
 series = 'series'
-project = 'projects'
 category = 'categories'
 
 [params]
@@ -89,10 +88,6 @@ url = '/tags'
 [[params.taxonomyMenu]]
 name = 'by series'
 url = '/series'
-
-[[params.taxonomyMenu]]
-name = 'by project'
-url = '/projects'
 
 [[params.taxonomyMenu]]
 name = 'by category'

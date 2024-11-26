@@ -3,7 +3,6 @@ title: "BookLens | Devlog #1"
 summary: "Towards a prettier Goodreads. Picking tools, building backends, and giving up on sending E-mails because I ain't got it in me."
 date: "2024-10-06"
 tags: [ "frontend", "serverless", "sveltekit", "aws lambda" ]
-projects: "booklens"
 categories: [ "devlogs" ]
 
 toc: true
