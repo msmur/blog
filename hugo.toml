@@ -47,7 +47,7 @@ Look at my [now](./now) page if you're just interested in the kind of person I a
 homeCollection = 'dev'
 
 # Lists parameters
-paginationSize = 10
+paginationSize = 20
 listSummaries = true
 listDateFormat = '2 Jan 2006'
 

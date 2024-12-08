@@ -2,7 +2,7 @@
 title: "A Search for Craft, Passion, and Meaning"
 summary: "One step towards fulfillment, one away from uncertainty"
 date: "2024-08-19"
-tags: [ "craft", "passion" ]
+tags: [ "craft", "passion", "2024" ]
 
 toc: true
 readTime: true

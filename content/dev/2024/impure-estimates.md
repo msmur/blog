@@ -2,7 +2,7 @@
 title: "Impure Estimates"
 summary: "Figuring out trade-offs are difficult. Don't make them unfair too."
 date: "2024-11-26"
-tags: [ "processes"]
+tags: [ "processes", "2024"]
 categories: [ "ruminations" ]
 
 toc: true

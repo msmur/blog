@@ -2,7 +2,7 @@
 title: "A Case For (Or Perhaps Against?) Idempotency"
 summary: "Software is all about tradeoffs, so let's figure out why Idempotency might be worth the effort"
 date: "2024-09-15"
-tags: [ "idempotency", "backend" ]
+tags: [ "idempotency", "backend", "2024" ]
 series: "making-sense-of-idempotency"
 categories: [ "learnings" ]
 

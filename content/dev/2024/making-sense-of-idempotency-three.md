@@ -2,7 +2,7 @@
 title: "Persistence Causes Persistent Issues"
 summary: "Databases help you achieve idempotency, but it's just so easy to get it wrong"
 date: "2025-11-24"
-tags: [ "idempotency", "backend", "database" ]
+tags: [ "idempotency", "backend", "databases", "2024" ]
 series: "making-sense-of-idempotency"
 categories: [ "learnings" ]
 
@@ -17,7 +17,7 @@ hideBackToTop: false
 ## Setting the Stage
 
 The previous essay had us run through the definition of idempotency as well as understand why its implementation is
-non-trivial and dependent on what our code is meant to do.
+non-trivial as it's dependent on business logic that can vary wildly.
 
 In this essay we'll explore how persistence is a pre-requisite in making our operations idempotent. We'll
 look at how common patterns in utilizing databases can be problematic, and then we'll incrementally move
