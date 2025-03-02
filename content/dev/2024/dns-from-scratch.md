@@ -2,8 +2,8 @@
 title: "DNS From Scratch"
 summary: "Understanding how DNS makes your website work. A nuanced overview of the parts of DNS that you should care about."
 date: "2024-09-03"
-tags: [ "network", "DNS", "2024" ]
-categories: [ "learnings" ]
+tags: [ "networks", "DNS", "2024" ]
+categories: [ "learning" ]
 
 toc: true
 readTime: true

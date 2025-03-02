@@ -4,7 +4,7 @@ summary: "Software is all about tradeoffs, so let's figure out why Idempotency m
 date: "2024-09-15"
 tags: [ "idempotency", "backend", "2024" ]
 series: "making-sense-of-idempotency"
-categories: [ "learnings" ]
+categories: [ "learning" ]
 
 toc: true
 readTime: true

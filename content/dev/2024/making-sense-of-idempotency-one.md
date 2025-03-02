@@ -4,7 +4,7 @@ summary: "A (long-winded yet) foundational introduction to idempotency"
 date: "2024-08-23"
 tags: [ "idempotency", "backend",  "distributed systems", "2024" ]
 series: "making-sense-of-idempotency"
-categories: [ "learnings" ]
+categories: [ "learning" ]
 
 toc: true
 readTime: true

@@ -4,7 +4,7 @@ summary: "Databases help you achieve idempotency, but it's just so easy to get i
 date: "2025-11-24"
 tags: [ "idempotency", "backend", "databases", "2024" ]
 series: "making-sense-of-idempotency"
-categories: [ "learnings" ]
+categories: [ "learning" ]
 
 toc: true
 readTime: true

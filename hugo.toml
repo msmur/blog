@@ -2,9 +2,11 @@ baseURL = "https://msmur.dev/"
 
 languageCode = 'en-us'
 title = 'msmur.dev'
-theme = 'typo'
+theme = ["hugo-admonitions", "typo"]
 
 pluralizeListTitles = false
+
+ignoreFiles = ['/wip/.*']
 
 [taxonomies]
 tag = 'tags'
