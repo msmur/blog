@@ -23,7 +23,7 @@ this: [DNS From Scratch](/dev/2024/dns-from-scratch/)
 
 ## The Guide
 
-### 1. Go get a VPS
+### 1. Go Get a VPS
 
 I used [Hetzner](https://www.hetzner.com/cloud). There are plenty of resources out
 there that help you compare services. I've
@@ -38,7 +38,7 @@ anything but, perhaps, popularity):
 - [Hostinger](https://www.hostinger.com/vps-hosting)
 - [AWS Lightsail](https://aws.amazon.com/lightsail/)
 
-### 2. Set up your VPS instance
+### 2. Set Up Your VPS Instance
 
 There are some minimum hardware requirements expected by [Coolify](https://coolify.io/) you can see
 them [here](https://coolify.io/docs/get-started/installation#_4-minimum-hardware-requirements).
@@ -83,7 +83,7 @@ apt update
 apt upgrade -y
 ```
 
-### 3. Set up Coolify
+### 3. Set Up Coolify
 
 This part is relatively straightforward. You can follow the Coolify installation
 guide [here](https://coolify.io/docs/get-started/installation).
@@ -91,7 +91,7 @@ guide [here](https://coolify.io/docs/get-started/installation).
 Once it's done installing, it'll list a URL on your terminal, something like: `<your-ip>:8000`, which you should
 *immediately* navigate to because you'll be prompted to set up your admin account.
 
-### 4. Set up Cloudflare for DNS resolution
+### 4. Set Up Cloudflare for DNS Resolution
 
 I'm going to assume you don't want to have to access your Coolify dashboard using a raw IP address. If you do, well, you
 can skip this step.
@@ -129,7 +129,7 @@ expression would look something like:
 
 I use an array for both values so you can extend the selection as you wish.
 
-### 5. Go wild~
+### 5. Go Wild~
 
 You can then proceed to do play around with Coolify. You can give each of your self-hosted applications
 their own domain through the Coolify dashboard for the application's configuration page. It would be something like:
