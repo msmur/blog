@@ -1,0 +1,57 @@
+
+### The Database Layer
+
+#### An Explanation
+
+Your data model, which is your database schema for a given model, is just that. It encapsulates everything that goes
+into your choice of tables to be created, columns and their specific types, primary and foreign key relations, and the
+likes.
+
+There's plenty of room for consideration around **normalization**, **uniqueness constraints**, **metadata** to be
+stored, **regulatory** and **security** requirements - which, can fatten up even a relatively simple resource.
+
+The *purpose* of this layer is to store data associated with the concept as "thorough"-ly as possible. Which is
+definitely a cop-out answer, since what counts as thorough is very much dependent on your use-case. But, to be helpfully
+generic, it should be about collecting all the data you need to collect, and storing it in a way that is flexibly
+extensible while maintaining the integrity of the relationships between the data itself.
+
+#### The Example
+
+Given our `Customer` resource, we'd store some key information like their `full_name`, `address`, `mobile_number`, and
+`id_number`. You'd then have to have a unique identifier `id` primary key column[^1], questions around normalization (
+should we store individual components of the name? or the address?), other uniqueness constraints (are `id_numbers`
+unique), additional metadata (timestamps, soft-delete columns), security considerations (columns to indicate
+risk levels, or results of background checks), or regulatory ones (what if a customer's details change, would you need
+to track the old one as well? If so how?)
+
+### The Domain Layer
+
+#### An Explanation
+
+Your domain model encapsulates *how* you this resource is manipulated as part of state in the application. This tends to
+manifest itself as 'class methods' that are responsible for some behavior of the resource. It's also perhaps the
+*hardest* thing to get right given that modeling this resource (and associated behavior, constraints, properties) is
+directly associated with your mental model of the resource itself.
+
+#### The Example
+
+Consider the `Customer` domain model. A simple behavioral example here would be in how you might update the mobile
+number associated with a particular customer.
+
+### The Synchronous Communication Layer
+
+### The Asynchronous Communication Layer
+
+### The Presentation Layer
+
+## When To Not
+
+## Deeper Complexities
+
+## Wrapping Up
+
+Database - Data Model
+Domain - Domain Model
+SyncDTO Model (Response Vs. Webhooks)
+AsyncDTO Model
+View Model
