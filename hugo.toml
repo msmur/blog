@@ -8,6 +8,8 @@ pluralizeListTitles = false
 
 ignoreFiles = ['/wip/.*']
 
+enableRobotsTXT = true
+
 [taxonomies]
 tag = 'tags'
 series = 'series'
